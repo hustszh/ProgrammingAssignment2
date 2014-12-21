@@ -1,7 +1,7 @@
 ## The calculation of inverse matrix is usually time-consuming,
 ## cache inverse matrix may be more favorable than the repeated
-## calculation. The following two functions are used to cache
-## on inverse matrix.
+## calculation. The following two functions (makeCacheMatrix() 
+## and cacheSolve() ) are used to cache on inverse matrix.
 
 
 ## This function is used to create a special "matrix" object
